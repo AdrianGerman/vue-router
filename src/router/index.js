@@ -50,12 +50,12 @@ const router = createRouter({
 router.beforeEach((to, from) => {
   console.log(to, from)
 
-  if (to.meta?.requireAuth) {
-    console.log(to.path, 'requires auth')
-    return '/session'
-  }
+  // if (to.meta?.requireAuth) {
+  //   console.log(to.path, 'requires auth')
+  //   return '/session'
+  // }
 
-  if (to.path === '/') return { name: 'about' }
+  // if (to.path === '/') return { name: 'about' }
   return true
 })
 
