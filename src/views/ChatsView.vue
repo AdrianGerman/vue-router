@@ -33,3 +33,17 @@ watch(
   }
 )
 </script>
+
+<style scoped>
+* {
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  background: rgb(13, 17, 23);
+  padding: 5px;
+  border-radius: 10px;
+}
+</style>

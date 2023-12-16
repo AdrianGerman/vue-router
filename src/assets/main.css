@@ -1,0 +1,12 @@
+body {
+  font-family: arial;
+  background: rgb(38, 36, 52);
+  color: aliceblue;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 28px;
+}

@@ -13,4 +13,13 @@ const isTest = import.meta.env.VITE_STAGE === 'test'
   <router-view />
 </template>
 
-<style scoped></style>
+<style scoped>
+a {
+  text-decoration: none;
+  color: aliceblue;
+  margin-right: 10px;
+  background: rgb(13, 17, 23);
+  padding: 10px;
+  border-radius: 10px;
+}
+</style>
